@@ -1,0 +1,47 @@
+{
+  "name": "vscode-mdx-inline",
+  "displayName": "MDX Inline",
+  "description": "Syntax highlighting for inline MDX tagged template literals",
+  "author": "Jakub Wadas <vadistic@gmail.com>",
+  "version": "0.1.0",
+  "preview": true,
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadistic/vscode-mdx-inline"
+  },
+  "publisher": "vadistic",
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Themes",
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "*"
+  },
+  "extensionDependencies": [
+    "silvenon.mdx"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue"
+        ],
+        "scopeName": "inline.mdx",
+        "path": "./grammars/mdx.js.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.mdx": "mdx"
+        }
+      }
+    ]
+  },
+  "devDependencies": {}
+}
