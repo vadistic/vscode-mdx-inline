@@ -5,7 +5,7 @@
 ## Installation
 
 - Install vscode [MDX language support](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx) (or it will be installed for you)
-- Install & enable this extension
+- Install & enable this extension [vadistic.mdx-inline](https://marketplace.visualstudio.com/items?itemName=vadistic.mdx-inline)
 
 ## Usage
 
