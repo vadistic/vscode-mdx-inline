@@ -1,5 +1,5 @@
 {
-  "name": "vscode-mdx-inline",
+  "name": "mdx-inline",
   "displayName": "MDX Inline",
   "description": "Syntax highlighting for inline MDX tagged template literals",
   "author": "Jakub Wadas <vadistic@gmail.com>",
@@ -14,8 +14,6 @@
   "publisher": "vadistic",
   "categories": [
     "Programming Languages",
-    "Formatters",
-    "Themes",
     "Other"
   ],
   "icon": "images/icon.png",

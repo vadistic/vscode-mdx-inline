@@ -5,7 +5,7 @@
 ## Installation
 
 - Install vscode [MDX language support](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx) (or it will be installed for you)
-- Install this extension to use MDX in tagged template literals
+- Install & enable this extension
 
 ## Usage
 
